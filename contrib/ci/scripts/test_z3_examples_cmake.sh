@@ -94,7 +94,7 @@ if [ "X${DOTNET_BINDINGS}" = "X1" ]; then
     # so don't run it for now.
     echo "Skipping .NET example under ASan build"
   else
-    run_quiet run_non_native_binding dotnet ${Z3_BUILD_DIR}/dotnet/netcoreapp2.0/dotnet.dll
+    run_quiet run_non_native_binding dotnet ${Z3_BUILD_DIR}/dotnet/netcoreapp6.0/dotnet.dll
   fi
 fi
 
